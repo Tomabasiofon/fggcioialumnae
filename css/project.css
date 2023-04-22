@@ -1,0 +1,141 @@
+body{
+    overflow-x: hidden;
+}
+
+.newProg{
+    margin: 65px 0 10px 0;
+    /* background-image: url("../images/gradpic-1.jpg"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2B0334;
+    opacity: 0.95;
+    border-top: 1px solid #fff;
+   
+}
+
+.newProg h1{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 5px;
+    padding: 10px 15px 0 15px;
+    font-family: 'Okta Neue Normal';
+    font-weight: normal;
+    font-style: normal;
+   
+}
+
+.newProg p{
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    letter-spacing: 2px;
+    font-family: 'Okta Neue Normal';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.newProg a{
+    display: block;
+    text-decoration: none;
+    padding: 8px 20px;
+    border: 1px solid #fff;
+    color: #f9f9f9;
+    font-size: 13px;
+    /* text-transform: uppercase; */
+    text-align: center;
+    width: 100px;
+    margin: 0 auto;
+}
+
+
+
+
+.newProgCont{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.borderBox{
+    padding: 20px 50px;
+    max-width: 1200px;
+    margin: 0 auto 20px auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.newProgFlex{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.newProgCard{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 12px;
+    font-family: 'Okta Neue Normal';
+    font-weight: normal;
+    font-style: normal; 
+}
+
+.newProgCardImg{
+    width: 100%;
+    height: 100%;
+   
+}
+
+.newProgCardImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.newProgBox{
+    box-shadow: rgb(50 50 93 / 25%) 10px 10px 25px -150px, rgb(0 0 0 / 30%) 0px 0px 20px 0px;
+}
+
+.newProgCardTxt{
+    padding: 1px 10px 10px 10px;
+    height: 144.5px;
+}
+
+.newProgBox:hover{
+   background-color: #2B0334;
+   color: #fff;
+   transition: 0.1s ease-in;
+}
+
+.newProgBox:hover .newProgCardTxt a{
+    background-color: #fff;
+    color: #2B0334;
+    transition: all 0.3s ease;
+ }
+
+.newProgCardTxt p{
+    font-size: 14px;
+    text-align: left;
+    padding: 10px 0;
+    letter-spacing: 0.5px;
+} 
+
+.newProgCardTxt a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 8px 20px;
+    background:#2B0334;
+    color: #f9f9f9;
+    font-size: 14px;
+    /* text-transform: uppercase; */
+    text-align: center;
+}
+

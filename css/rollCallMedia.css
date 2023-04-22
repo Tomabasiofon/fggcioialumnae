@@ -1,0 +1,208 @@
+@media screen and (max-width: 1250px) {
+    .secGrigImgDiv {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        margin-left: 1em;
+      }
+
+      /* .secGrigImg {
+        height: 380px;
+        color: #fff;
+        width: 400px;
+      } */
+
+      .secGrigImg h3 {
+        margin-bottom: 0.6rem;
+        font-size: 1rem;
+      }
+
+      .secGrigImg p {
+        letter-spacing: 1px;
+        line-height: 20px;
+      }
+
+      .rollCallCont {
+        max-width: 2000px;
+        padding-left: 3.5rem;
+        padding-top: 50px;
+    }
+
+      /* .grid-disp2 p {
+        font-size: 0.72rem;
+      } */
+
+      /* .secGridImgCont {
+        position: absolute;
+        bottom: 3.2em;
+        left: 2.2em;
+      } */
+
+}
+
+@media screen and (max-width:1024px) {
+    body{
+        font-size: 12px;
+    }
+
+      .secGrigImgDiv {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+        margin-left: 1em;
+      }
+
+      /* .secGrigImg {
+        height: 320px;
+        color: #fff;
+        width: 350px;
+      } */
+
+      .secGrigImg p {
+        letter-spacing: 1px;
+        line-height: 18px;
+      }
+
+      .supervisedContain {
+        max-width: 1500px;
+        padding-left: 3.5em;
+      }
+
+      /* .grid-disp2 p {
+        font-size: 0.65rem;
+      } */
+
+      /* .secGridImgCont {
+        position: absolute;
+        bottom: 2em;
+        left: 1.5em;
+      } */
+
+      .grid-disp2 {
+       
+        padding-bottom: 0px;
+      }
+
+      .leftArrow {
+        padding: 3px;
+        cursor: pointer;
+      }
+
+      .rightArrow {
+        padding: 7px;
+      
+      }
+
+      .rollCallCont {
+        max-width: 2000px;
+        padding-left: 4rem;
+        padding-top: 30px;
+    }
+
+      .rollCall h1 {
+        text-align: center;
+        font-size: 30px;
+        color: #2B0334;
+        padding-top: 50px;
+    }
+
+    .secGrigImg h3 {
+        margin-bottom: 0.2rem;
+        font-size: 20px;
+        font-family: 'Okta Neue';
+        font-weight: bold;
+        font-style: normal;
+    }
+}
+
+@media screen and (max-width:770px) {
+
+    .rollCall h1 {
+        text-align: center;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+
+    .rightArrow {
+        cursor: pointer;
+        font-size: 2rem;
+      }
+
+      .arrowContainer {
+        margin-top: 0.5em;
+      }
+}
+
+@media screen and (max-width:632px) {
+
+    .rollCallCont {
+        max-width: 2000px;
+        padding-left: 2.5rem;
+        padding-top: 50px;
+    }
+
+      .secGrigImg {
+        height: 260px;
+        color: #fff;
+        width: 260px;
+      }
+
+      .secGridImgCont {
+        position: absolute;
+        bottom: 20px;
+        left: 10px;
+        padding-right: 70px;
+    }
+
+      .secGrigImg h3 {
+        margin-bottom: 0rem;
+        font-size: 1.2rem;
+      }
+
+      .grid-disp2 p {
+        font-size: 0.8rem;
+        line-height: 25px;
+      }
+
+      .arrowContainer {
+        margin-top: 1em;
+      }
+
+      .arrowContainer1 {
+        margin-top: 15px;
+        padding-bottom: 50px;
+        padding-right: 10px;
+    }
+
+    .rightArrow {
+        padding: 0 10px;
+    }
+
+    .leftArrow {
+        padding: 10px;
+        cursor: pointer;
+        font-size: 1.3rem;
+    }
+}
+
+@media screen and (max-width: 450px) {
+  .grid-disp2 p {
+    font-size: 0.8rem;
+    line-height: 10px;
+}
+
+.secGrigImg h3 {
+  margin-bottom: 0rem;
+  font-size: 0.9rem;
+  line-height: 25px;
+}
+}
+

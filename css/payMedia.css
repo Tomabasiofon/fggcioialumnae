@@ -1,0 +1,109 @@
+@media screen and (max-width: 770px) {
+        
+}
+
+@media screen and (max-width: 1024px) {
+    .rightPay button {
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 10px;
+        text-align: left;
+        font-size: 12px;
+        border-radius: 5px;
+        cursor: pointer;
+        border: none;
+        color: #fff;
+    }
+
+    .leftPay {
+        padding: 10px 30px 10px 20px;
+        font-size: 12px;
+    }
+
+    .payNewsSect a {
+        font-size: 12px;
+    }
+
+    .payCont .leftPay h1 {
+        padding: 15px 0;
+        font-size: 15px;
+    }
+
+    .rightPay h2 {
+        padding: 15px 0;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    #newProg h1{
+        text-align: center;
+        font-size: 25px;
+        color: #fff;
+        letter-spacing: 5px;
+        padding: 10px 15px 0 15px;
+    }
+}    
+
+@media screen and (max-width: 770px) {
+
+    body{
+        font-size: 12px !important;
+    }
+    
+    .payFlex {
+        display: grid;
+        align-items: center;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+
+    .leftPay {
+        padding: 20px 20px;
+    }
+
+    .rightPay .btnDiv {
+        padding-top: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .leftPay .accflex h2 {
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+
+    .leftPay .accflex .rightAcc ul li {
+        padding: 5px 0;
+    }
+
+    .leftPay .accflex p {
+        line-height: 20px;
+        font-size: 12px;
+    }
+
+    .payNewsSect a {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+
+    #paySect{
+        margin-top: 63px;
+        font-family: 'Okta Neue Normal';
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    .payCont {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 20px 10px 50px 10px;
+    }
+    .callConfirm ul a{
+        font-size: 9px;
+      }
+     
+}

@@ -1,0 +1,121 @@
+.grid-disp2 {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-column-gap: 18px;
+}
+
+.rollCallCont{
+    max-width: 2000px;
+    padding-left: 6rem;
+    padding-top: 50px;
+}
+
+
+
+.secGrigImgDiv{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin-left: 1em;
+    font-family: 'Okta Neue Normal';
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+
+.secGrigImg h3 {
+    margin-bottom: 0.5rem;
+    font-size: 19px;
+    font-family: 'Okta Neue';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.secGrigImg p{
+    font-size: 15px;
+}
+
+.secGrigImg h5{
+    font-size: 10px;
+}
+
+.secGrigImg .secGridImgCont .secGridP p {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Okta Neue Normal';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.secGridImgCont {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding-right: 70px;
+}
+
+.arrowContainer{
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+}
+
+.arrowContainer1{
+    width: 100%;
+    background-color: #F5F7F9;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top:0;
+    padding-bottom: 70px;
+    padding-right: 70px;
+    
+}
+
+.arrowIcon {
+    display: inline-block;  
+  }
+  
+
+.rightArrow {
+    cursor: pointer;
+    font-size: 2rem;
+    padding: 10px 10px;
+  }
+
+  .rightArrow:Hover {
+    color: #202577;
+    background-color: #bccedd;
+  }
+  
+ .leftArrow {
+    cursor: pointer;
+    color: #bccedd;
+    padding: 10px 10px;
+  }
+
+  .leftArrow:Hover {
+    color: #bccedd;
+    background-color: #202577;
+  }
+
+  .scrollRollCallImgs{
+      width: 100%;
+      height: auto;
+      overflow: auto;
+      position: relative;
+      scroll-behavior: smooth;
+      overflow: hidden;
+
+  }
+
+  .scrollRollCallImgs::-webkit-scrollbar {
+    
+      -webkit-appearance: none;
+  }

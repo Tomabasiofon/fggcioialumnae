@@ -1,0 +1,243 @@
+
+body{
+    font-size: 14px !important;
+    overflow-x: hidden;
+}
+
+#paySect{
+    margin-top: 65px;
+    font-family: 'Okta Neue Normal';
+    font-weight: normal;
+    font-style: normal;
+}
+
+#newProg{
+    /* background-image: url("../images/gradpic-1.jpg"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #2B0334;
+    opacity: 0.95;
+    border-top: 2px solid #fff;
+}
+
+#newProg h1{
+    text-align: center;
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 5px;
+    padding: 10px 15px 0 15px;
+}
+
+#newProg p{
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.payCont{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 50px 100px 50px;
+
+}
+
+.payCont .leftPay h1 {
+ 
+    padding: 15px 0;
+}
+
+.payCont .leftPay h1 span {
+    border-bottom: 3px solid #2B0334;
+}
+
+.payFlex {
+    display: grid;
+    /* align-items: center; */
+    grid-template-columns: 3fr 1fr;
+    width: 100%;
+}
+
+.leftPay{
+    padding: 10px 50px;
+}
+
+.leftPay h4{
+    padding: 10px 0 10px 0;
+}
+
+.leftPay .accflex{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.leftPay .accflex p {
+    line-height: 25px;
+}
+
+.leftPay .accflex .leftAcc{
+    display: grid;
+    width: 50%;
+    padding: 15px;
+    text-align: center;
+    background: #2B0334;
+    color: #fff;
+}
+
+.leftPay .callConfirm .accflex .leftAcc{
+   align-items: center;
+}
+
+.leftPay .accflex .rightAcc{
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.leftPay .accflex .rightAcc ul li{
+   list-style-type: none;
+   padding: 10px 0;
+}
+
+.leftPay .accflex h2{
+    padding-bottom: 10px;
+ }
+
+ .callConfirm h4{
+    padding: 10px 0;
+ }
+
+ .callConfirm p{
+    padding: 10px 0;
+ }
+ .callConfirm ul li{
+    list-style-type: none;
+    padding: 10px 0;
+ }
+
+ .callConfirm ul a{
+   text-decoration: none;
+   color: #2B0334;
+ }
+
+.rightPay{
+    padding: 10px 20px;
+}
+
+.rightPay h2 {
+    padding: 15px 0;
+}
+
+.rightPay  .btnDiv{
+    padding-top: 30px;
+}
+
+.rightPay h2 span {
+   border-bottom: 3px solid #2B0334;
+   padding-bottom: 2px;
+}
+.rightPay button{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+}
+
+.rightPay button #payFacebook{
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.rightPay .payFacebook{
+    background-color: #3D5998;
+  }
+
+.rightPay button #payEmail{
+    font-size: 20px;
+    margin-right: 10px;
+  }
+
+  .rightPay .payEmail{
+    background-color: #6A0222;
+  }
+
+
+  .rightPay .sepDiv{
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .payNews{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .payNews h4{
+   padding: 10px 0;
+  }
+
+  .payNews h4 a{
+   text-decoration: none;
+   color: #2B0334;
+   }
+
+   .payInputs input{
+    display: block;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    border: none;
+    outline: none;
+   }
+
+   .payInputs .remMe input {
+   display: inline;
+  
+   }
+
+   .payInputs #signInBtn{
+   margin-top: 20px;
+   /* display: inline-block; */
+   /* width: fit-content; */
+   padding: 8px 15px;
+   background-color: #2B0334;
+   color: #fff;
+   border-radius: 2px;
+   text-align: center;
+   }
+
+   .payInputs a{
+    display: block;
+    text-decoration: none;
+    color:#2B0334;
+   
+    }
+
+    .payNewsSect{
+        padding: 10px 0;
+    }
+
+    .payNewsSect p{
+       font-weight: bold;
+       font-size: 0.7rem;
+     }
+
+    .payNewsSect a{
+       text-decoration: none;
+       color: #2B0334;
+    }
+
+    

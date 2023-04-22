@@ -1,0 +1,321 @@
+@media screen and (max-width: 1250px) {
+  .newProg h1{
+      text-align: center;
+      font-size: 50px;
+      color: #fff;
+      letter-spacing: 5px;
+      padding: 10px 15px 0 15px;
+  }
+}
+
+@media screen and (max-width:1200px) {
+    body{
+        font-size: 12px;
+    }
+
+    .blogFloat .blogText h1 {
+        padding-bottom: 0.5em;
+        font-size: 2rem;
+      }
+
+    .blogFloat2 .blogImg2 img {
+        height: 250px;
+        width: 100%;
+        border-radius: 10px;
+    }     
+    
+    .blogFloat2 .blogText2 h1 {
+        padding-bottom: 0.5em;
+        font-size: 1.4rem;
+      }
+}
+
+@media screen and (max-width:1024px) {
+    body{
+        font-size: 12px;
+    }
+
+    .blogFloat2 .blogImg2 img {
+        height: 220px;
+        width: 100%;
+        border-radius: 10px;
+    }   
+
+    .blogFloat2 .blogText2 .span3 {
+        font-size: 1rem;
+        font-weight: normal;
+      }
+
+    .blogFloat2 .blogText2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.7em;
+        letter-spacing: 0.5px;
+      }
+
+      .blogFloat2 .blogImg2 .date1 {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        padding: 8px 20px;
+        border-radius: 30px;
+        font-size: 10px;
+      }
+}
+
+
+@media screen and (max-width:850px) {
+    body{
+        font-size: 12px;
+    }
+
+    .newProg {
+      height: 200px;
+  }
+
+      .newProg h1{
+          text-align: center;
+          font-size: 25px;
+          color: #fff;
+          letter-spacing: 5px;
+          padding: 10px 15px 0 15px;
+      }
+
+
+    .blogFloat .blogText {
+        line-height: 1.5em;
+        letter-spacing: 0.5px;
+        font-size: 12px;
+      }
+    
+
+    .blogFloat .blogText h1 {
+        padding-bottom: 0.5em;
+        font-size: 1.2rem;
+      }
+
+      .blogFloat .blogText p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        margin-bottom: 0.9rem;
+      }
+
+    .blogFloat2 .blogImg2 img {
+        height: 150px;
+        width: 100%;
+        border-radius: 10px;
+    }   
+
+    .blogFloat2 .blogText2 .span3 {
+        font-size: 1rem;
+        font-weight: normal;
+      }
+
+    .blogFloat2 .blogText2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.7em;
+        letter-spacing: 0.5px;
+        font-size: 10px;
+      }
+
+      .blogFloat2 .blogText2 h1 {
+        padding-bottom: 0.5em;
+        font-size: 0.8rem;
+      }
+
+      .blogFloat2 .blogText2 p {
+        margin-bottom: 1rem;
+      }
+
+      .blogFloat .blogText #span1 {
+        margin-bottom: 1em;
+        font-size: 1rem;
+        font-weight: normal;
+      }
+
+      .blogFloat2 .blogImg2 .date1 {
+        position: absolute;
+        top: 15px;
+        left: 10px;
+        padding: 8px 15px;
+        border-radius: 30px;
+        font-size: 10px;
+      }
+
+      .blogFloat2 .blogText2 {
+        padding-right: 0em;
+    }
+      
+}
+
+@media screen and (max-width:650px) {
+    body{
+        font-size: 12px;
+    }
+
+    .blogFloat .blogText {
+        line-height: 1.5em;
+        letter-spacing: 0.5px;
+      }
+    
+
+    .blogFloat .blogText h1 {
+        padding-bottom: 0.5em;
+        font-size: 1.2rem;
+      }
+
+      .blogFloat .blogText p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        margin-bottom: 0.9rem;
+      }
+
+      .blogTxtSect{
+        font-size: 12px;
+      }
+
+      
+.blogFloat .blogText a {
+  font-size: 14px;
+  color: #3d123d;
+}
+
+    .blogFloat2 .blogImg2 img {
+        height: 130px;
+        width: 100%;
+        border-radius: 10px;
+    }   
+
+    .blogFloat2 .blogText2 .span3 {
+        font-size: 0.8rem;
+        font-weight: normal;
+      }
+
+    .blogFloat2 .blogText2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.5em;
+        letter-spacing: 0.5px;
+      }
+
+      .blogFloat2 .blogText2 h1 {
+        padding-bottom: 0.5em;
+        font-size: 0.6rem;
+      }
+
+      .blogFloat2 .blogText2 p {
+        margin-bottom: 0.8rem;
+      }
+
+      .blogFloat .blogText #span1 {
+        margin-bottom: 1em;
+        font-size: 0.8rem;
+        font-weight: normal;
+      }
+      
+}
+
+@media screen and (max-width:500px) {
+    body{
+        font-size: 12px;
+    }
+
+    #blogSect {
+      margin-top: 50px;
+    }
+
+    .blogFloat {
+        Display: flex;
+        flex-direction: column;
+      }
+
+      .blogFloat .blogImg {
+        position: relative;
+        width: 95%;
+        margin: calc(10% / 4);
+      }
+
+      .blogFloat .blogText {
+        line-height: 1.8em;
+        letter-spacing: 0.5px;
+        width: 100%;
+        font-size: 14px;
+      }
+
+      #blogSect2 {
+        margin: 50px 0 100px 0;
+      }
+
+      .blogFloat2 {
+        Display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+
+      .blogFloat2 .blogPart {
+        width: 95%;
+        margin: 1.667%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .blogFloat2 .blogImg2 {
+        position: relative;
+        width: 95%;
+        margin: 0 auto;
+      }
+
+      .blogFloat2 .blogImg2 img {
+        height: 250px;
+        width: 100%;
+        border-radius: 10px;
+      }
+
+      .blogFloat2 .blogText2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        line-height: 1.5em;
+        letter-spacing: 0.5px;
+        width: 95%;
+        margin: 10px auto 50px auto;
+        font-size: 14px;
+      }
+
+      .blogFloat2 .blogText2 h1 {
+        padding-bottom: 0.5em;
+        font-size: 1.2rem;
+      }
+
+      .blogFloat .blogImg #date1 {
+        position: absolute;
+        top: 15px;
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 770px) {
+  .newProg h1 {
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 5px;
+    padding: 10px 15px 0 15px;
+}
+
+.newProg p {
+    padding: 10px;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+}
+
+@media screen and (max-width: 450px){
+  .newProg {
+    margin: 63px 0 10px 0;
+  }
+}

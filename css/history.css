@@ -1,0 +1,344 @@
+.histCont{
+    display: flex;
+    justify-content: center;
+    max-width: 1400px;
+    margin: 60px auto;
+    padding: 50px 50px;
+    height: 550px;
+    font-family: 'Okta Neue Normal';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.rightHist{
+    width: 60%;
+    height: 100%;
+}
+
+.smallHist{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.leftHist{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+    box-shadow: rgb(50 50 93 / 25%) 10px 10px 25px -150px, rgb(0 0 0 / 30%) 0px -0px 20px 0px;
+    
+}
+
+.leftHist p{
+    padding: 20px 0;
+}
+
+.leftHist a{
+    background: #2B0334;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+.bigHistImg{
+    width: 100%;
+    height: 100%;
+}
+
+.bigHistImg img{
+    width: 100%;
+    height: 100%;
+}
+
+.histImg{
+    height: 150px;
+
+}
+
+.histImg1{
+    width: 50%;
+}
+
+.histImg2{
+    width: 30%;
+    display: flex;
+    align-self: flex-end;
+}
+
+.histImg3{
+    width: 20%;
+}
+
+.clearFlt{
+    clear: both;
+ 
+}
+
+#histGradPic{
+    font-size: 200px;
+    color: #2B0334;
+}
+
+.histText{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 50px;
+    font-family: 'Okta Neue Normal';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.histText h1{
+    text-align: center;
+    padding: 20px;
+    background-color: #2B0334;
+    color: #fff;
+}
+
+.histPDiv{
+    padding: 50px 0;
+}
+
+.histPDiv p {
+    padding: 5px 0;
+    text-align: justify;
+    line-height: 25px;
+}
+
+#principalRoll{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 50px 50px 0 50px;
+}
+
+#principalRoll h1{
+    text-align: center;
+    font-size: 50px;
+    color: #2B0334;
+    padding-bottom: 20px; 
+    font-family: 'Okta Neue';
+    font-weight: 300;
+    font-style: normal;
+}
+
+#hGirlRollSect h1{
+    text-align: center;
+    font-size: 50px;
+    color: #2B0334;
+    padding-bottom: 20px;
+    font-family: 'Okta Neue';
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+.rollCall h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #2B0334;
+    padding-top: 50px;
+    font-family: 'Okta Neue';
+    font-weight: 300;
+    font-style: normal;
+}
+
+#hGirlRollSect{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 50px 50px 0 50px;
+    font-family: 'Okta Neue Normal';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.girlRollFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.leftGirlRoll {
+    width: 50%;
+    padding: 0 50px 0 0;
+}
+
+.rightGirlRoll {
+    width: 50%;
+    padding: 0 0 0 50px;
+}
+
+.hGirlRoll {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'Okta Neue Normal';
+    font-weight: normal;
+    font-style: normal;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .hGirlRoll td, .hGirlRoll th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .hGirlRoll tr:nth-child(even){background-color: #f2f2f2;}
+  
+  .hGirlRoll tr:hover {background-color: #ddd;}
+  
+  .hGirlRoll th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2B0334;
+    color: white;
+  }
+
+  #foundingExec{
+    padding-left: 6rem;
+    padding-top: 50px;
+    font-family: 'Okta Neue Normal';
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  #foundingExec h1{
+    text-align: center;
+    font-size: 50px;
+    color: #2B0334;
+    padding-bottom: 20px; 
+    font-family: 'Okta Neue';
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .secGrigImg  {
+    height: 280px;
+    color:#fff;
+    width: 260px;
+    /* overflow: hidden; */
+}
+
+  .secGrigImgDiv1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)) , url(../images/bots1/IMA-OBONG\ UBONG\ EYO-Chairperson.jpg);
+}
+
+.secGrigImgDiv2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.3)) , url(../images/bots1/Nkoyo\ Eze-Secretary.jpg);
+}
+
+.secGrigImgDiv3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.3)) , url(../images/bots1/Stella\ Okechukwu.jpg);
+}
+
+.secGrigImgDiv4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.3)) , url(../images/bots1/Chineze\ Thelma\ Agweye.jpg);
+}
+
+.secGrigImgDiv5 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.3)) , url(../images/bots1/Himo\ Charles\ Sonny-Joe\ .jpg)
+}
+
+.secGrigImgDiv6 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.3)) , url(../images/bots/Nsembo\ Ekim.jpg);
+}
+
+.secGrigImgDiv7 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.3)) , url(../images/bots1/Mfon\ Essien\ Ndanyongmong.jpg);
+}
+
+.secGrigImgDiv8 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.3)) , url(../images/bots/Khadijat\ Iyal\ Yahaya.jpg);
+}
+
+.secGrigImgDiv9 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.3)) , url(../images/bots1/Ndifreke\ Andrew-Essien-1.jpg);
+}
+
+.secGrigImgDiv10 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 1.0)) , url(../images/chapter-execs/Jitau\ Mshelia\ Atiwurcha-Abuja\ Chapter\ Coordinator.jpg);
+}
+
+.secGrigImgDiv11 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 1.0)) , url(../images/chapter-execs/Adannaya\ Nnanna\ Idika-Lagos\ Chapter\ Coordinator.jpg);
+}
+
+.secGrigImgDiv12 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 1.0)) , url(../images/chapter-execs/Unyime\ Dickson-Port\ Harcourt\ Chapter\ Coordinator.jpg);
+}
+
+.secGrigImgDiv13 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 1.0)) , url(../images/chapter-execs/Uduak\ Ekpa-Calabar\ Chapter\ Coordinator.jpg);
+}
+
+.secGrigImgDiv14 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 1.0)) , url(../images/book1.webp);;
+}
+
+.secGrigImgDiv15 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 1.0)) , url(../images/icon1.webp);;
+}
+
+.secGrigImgDiv16 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 1.0)) , url(../images/book3.webp);;
+}
+
+.secGrigImgDiv17 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 1.0)) , url(../images/icon1.webp);;
+}
+
+.secGrigImgDiv18 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 1.0)) , url(../images/book1.webp);;
+}
+
+.secGrigImgDiv19 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 1.0)) , url(../images/icon1.webp);;
+}
+
+.secGrigImgDiv20 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 1.0)) , url(../images/book3.webp);;
+}
+
+.secGrigImgDiv21 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 1.0)) , url(../images/icon1.webp);;
+}
+
+#chapCords {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+@media screen and (max-width: 450px) {
+    .histText {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 25px;
+        font-family: 'Okta Neue Normal';
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    #principalRoll {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 50px 20px 0 20px;
+    }
+
+    #hGirlRollSect {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 50px 20px 0 20px;
+        font-family: 'Okta Neue Normal';
+        font-weight: normal;
+        font-style: normal;
+    }
+}
